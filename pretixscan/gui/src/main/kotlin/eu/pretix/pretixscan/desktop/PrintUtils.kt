@@ -121,7 +121,7 @@ class OrderPositionContentProvider(private val application: PretixScanMain, priv
 
     override fun getBarcodeContent(content: String?): String {
         return when(content) {
-            "pseudonymization_id" -> op.getString("pseudonymization_id")
+            "pseudonymization_id" -> "https://tickets.deinestadttestet.de/app/testergebnis?t=" + op.getString("secret")
             "secret" -> op.getString("secret")
             else -> op.getString("secret")  // Backwards compatibility
         }
