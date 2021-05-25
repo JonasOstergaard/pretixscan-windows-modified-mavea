@@ -1,3 +1,7 @@
+W3 digital brands GmbH
+
+This is a modified version of the original pretixScan Windows App to include a customized QR Code for Test-Center Testresults.
+
 pretixSCAN
 ==========
 
